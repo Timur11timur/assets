@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["vendors~loaders"],{
 
 /***/ "./node_modules/lottie-web/build/player/lottie.js":
 /*!********************************************************!*\

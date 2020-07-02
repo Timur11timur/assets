@@ -22,7 +22,7 @@ export default {
 
     created() {
         axios
-            .get('https://laracasts.test/api/stats')
+            .get('http://127.0.0.1:8000/api/stats')
             .then(response => response.data)
             .then(data => {
                 this.series = data.series;
