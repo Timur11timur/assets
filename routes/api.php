@@ -24,3 +24,7 @@ Route::get('stats', function (Request $request) {
         'lessons' => 1300
     ];
 });
+
+Route::get('achievements', function (Request $request) {
+    return request()->user()->achievements;
+})->middleware('auth:api');

@@ -62,6 +62,14 @@
                                 <li class="text-sm leading-loose">
                                     <router-link class="text-black" to="/site-stats">Site Stats</router-link>
                                 </li>
+
+                                <li class="text-sm leading-loose">
+                                    <router-link class="text-black" to="/about">The Team</router-link>
+                                </li>
+
+                                <li class="text-sm leading-loose">
+                                    <router-link class="text-black" to="/achievements">Your Achievements</router-link>
+                                </li>
                             </ul>
                         </section>
                     </aside>
