@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/settings/access', 'AccessTokenController@show');
+Route::patch('/settings/access', 'AccessTokenController@update');
+
 Route::get('/{any}', function () {
     return view('app');
 })->where('any', '.*');
